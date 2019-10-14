@@ -6,8 +6,4 @@ public class PriceCalculator {
                 Math.max(0, quantity - 500) * itemPrice * 0.05 +
                 Math.min(quantity * itemPrice * 0.1, 100.0);
     }
-    double getPriceTax(int quantity, int itemPrice) {
-        return Math.max(0, quantity - 500) * itemPrice * 0.05 +
-                Math.min(quantity * itemPrice * 0.1, 100.0);
-    }
 }
